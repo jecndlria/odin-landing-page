@@ -12,7 +12,7 @@ a {
    flex-direction: row;
    gap: 24px;
    justify-content: flex-end;
-   padding: 10px;
+   padding: 16px 64px;
    font-size: 18px;
    color: #e5e7eb
 }
