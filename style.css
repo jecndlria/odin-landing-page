@@ -1,3 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+   font-family: 'Roboto';
+}
+
+html, body {
+   margin: 0;
+   padding: 0;
+ }  
+ 
+
 a {
    /* this removes the line under our links */
    text-decoration: none;
@@ -25,4 +37,37 @@ a {
 
 .small-link {
    align-self: center;
+}
+
+.maintext {
+   font-size: 48px;
+   color: #F9FAF8;
+}
+
+.titlecard {
+   display: flex;
+   padding: 256px 64px;
+}
+
+.leftcard {
+   flex: 2 1 auto;
+   text-align: left;
+}
+
+.titlecard button {
+   background-color: #3882f6;
+   border-radius: 12px;
+   max-height: 64px;
+   max-width: 256px;
+}
+
+.titlecard p {
+   text-align: left;
+   font-size: 24px;
+   color: #e5e7eb;
+}
+
+.rightcard img{
+   width: 800px;
+   height: 450px;
 }
