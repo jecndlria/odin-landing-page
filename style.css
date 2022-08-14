@@ -54,6 +54,10 @@ a {
    text-align: left;
 }
 
+.titlecard h1 {
+   font-size: 48px
+}
+
 .titlecard button {
    background-color: #3882f6;
    border-radius: 12px;
