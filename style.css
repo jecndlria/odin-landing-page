@@ -9,7 +9,6 @@ html, body {
    padding: 0;
  }  
  
-
 a {
    /* this removes the line under our links */
    text-decoration: none;
@@ -50,19 +49,27 @@ a {
 }
 
 .leftcard {
-   flex: 2 1 auto;
+   max-width: 512px;
    text-align: left;
 }
 
+.rightcard {
+   margin-left: auto;
+}
+
 .titlecard h1 {
-   font-size: 48px
+   font-size: 48px;
+   color: #f9fAf8;
 }
 
 .titlecard button {
    background-color: #3882f6;
    border-radius: 12px;
-   max-height: 64px;
-   max-width: 256px;
+   height: 64px;
+   width: 256px;
+   font-weight: bold;
+   color: #F9FAF8;
+   font-size:36px
 }
 
 .titlecard p {
@@ -72,6 +79,6 @@ a {
 }
 
 .rightcard img{
-   width: 800px;
-   height: 450px;
+   max-width: 800px;
+   max-height: 450px;
 }
