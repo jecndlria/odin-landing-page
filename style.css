@@ -1,0 +1,28 @@
+a {
+   /* this removes the line under our links */
+   text-decoration: none;
+}
+
+.dark {
+   background-color: #1f2937;
+}
+ 
+.header-links {
+   display: flex;
+   flex-direction: row;
+   gap: 24px;
+   justify-content: flex-end;
+   padding: 10px;
+   font-size: 18px;
+   color: #e5e7eb
+}
+
+.logo {
+   flex: 1 1 auto;
+   font-size: 24px;
+   color: #f9faf8  
+}
+
+.small-link {
+   align-self: center;
+}
