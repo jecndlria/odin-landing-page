@@ -180,3 +180,13 @@ a {
    color: #F9FAF8;
    font-size: 18px;
 }
+
+.copyright {
+   background-color: #1f2937;
+   padding: 36px;
+}
+
+.copyright p {
+   text-align: center;
+   color: #f9fAf8;
+}
