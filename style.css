@@ -120,7 +120,7 @@ a {
 }
 
 .quote-container {
-   padding: 256px 512px 256px 512px;
+   padding: 128px 512px 128px 512px;
 }
 
 .quote {
@@ -134,4 +134,49 @@ a {
    font-weight: 900;
    font-size: 36px;
    text-align: right;
+}
+
+.action {
+   padding: 128px;
+}
+
+.action-container {
+   display: flex;
+   align-items: center;
+   background-color: #3882F6;
+   padding: 64px 128px 64px 128px;
+   border-radius: 12px;
+}
+
+.action-text {
+   display: flex;
+   flex-direction: column;
+}
+
+.action-text p {
+   margin: 2px;
+}
+
+.call {
+   font-weight: 700;
+   font-weight: bold;
+   font-size: 36px;
+   color: #F9FAF8;
+}
+
+.call-caption {
+   color: #E5E7EB;
+}
+
+.action-container button{
+   margin-left: auto;
+   width: 192px;
+   height: 48px;
+   border-radius: 12px;
+   background-color: #3882F6;
+   border-color: #f9fAf8;
+   border-width: 3px;
+   font-weight: 500;
+   color: #F9FAF8;
+   font-size: 18px;
 }
