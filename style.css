@@ -1,7 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-
-* {
-   font-family: 'Roboto';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');* {
+   font-family: 'Roboto', sans-serif;
 }
 
 html, body {
@@ -117,3 +115,23 @@ a {
    text-align: center;
 }
 
+.inspriation {
+   background-color: #E5E7EB;
+}
+
+.quote-container {
+   padding: 256px 512px 256px 512px;
+}
+
+.quote {
+   font-weight: 100;
+   font-size: 36px;
+   font-style: italic;
+}
+
+.author {
+   font-style: bold;
+   font-weight: 900;
+   font-size: 36px;
+   text-align: right;
+}
